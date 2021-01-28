@@ -19,10 +19,5 @@ class MainActivity : AppCompatActivity() {
         // Obtain the ViewModel component.
         val viewModels = UserModel()
         binding.userViewModel = viewModels
-
-        var view = ObservableViewModel()
-        view.addOnPropertyChangedCallback();
-        view.notifyChange()
-
     }
 }
