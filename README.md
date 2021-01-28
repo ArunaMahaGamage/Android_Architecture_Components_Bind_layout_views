@@ -1,4 +1,6 @@
-# https://developer.android.com/topic/libraries/data-binding/architecture#kotlin
+# Bind layout views to Architecture Components
+
+https://developer.android.com/topic/libraries/data-binding/architecture#kotlin
 
 Unlike objects that implement Observable—such as observable fields—LiveData objects know about the lifecycle of the observers subscribed to the data changes.
 
