@@ -26,4 +26,4 @@ To use a LiveData object with your binding class, you need to specify a lifecycl
           }
       }
       
-This repo have clear exampple relate to lifecycle owner base on Google Documation.
+This repo have clear example relate to lifecycle owner base on Google Documation.
