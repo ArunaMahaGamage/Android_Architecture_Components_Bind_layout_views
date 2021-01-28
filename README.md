@@ -6,7 +6,7 @@ Unlike objects that implement Observable—such as observable fields—LiveData 
 
 To use a LiveData object with your binding class, you need to specify a lifecycle owner to define the scope of the LiveData object. The following example specifies the activity as the lifecycle owner after the binding class has been instantiated:
 
-'binding.setLifecycleOwner(this)' handele View Model Lifecycle base on Activity or Fragment.
+'binding.setLifecycleOwner(this)' handle View Model Lifecycle base on Activity or Fragment.
 
 
       class MainActivity : AppCompatActivity() {
